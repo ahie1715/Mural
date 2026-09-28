@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mural</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav class="barra">
+
+        <a href="#inicio">Inicio</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#galeria">Galería</a>
+
+    </nav>
+
+
+    <!-- INICIO -->
+    <section id="inicio" class="seccion inicio">
+
+        <h1>Mural</h1>
+
+        <img
+            class="mural aparecer"
+            src="img/WhatsApp Image 2026-09-23 at 3.30.40 PM.jpeg"
+            alt="Mural"
+        >
+
+        <img
+            class="decora"
+            src="img/—Pngtree—palm tree with lush green_20965856 (2).png"
+            alt=""
+        >
+
+        <img
+            class="decora2"
+            src="img/—Pngtree—palm tree with lush green_20965856 (2).png"
+            alt=""
+        >
+
+    </section>
+
+
+    <!-- PROCESO -->
+    <section id="proceso" class="seccion">
+
+        <h2 class="aparecer">Proceso</h2>
+
+        <!-- CARRUSEL -->
+        <div class="carrusel aparecer" id="galeria">
+
+            <div class="imagenes">
+
+                <img src="img/dona.jpeg" alt="Tatuaje 1">
+                <img src="img/juan.jpeg" alt="Tatuaje 2">
+                <img src="img/indio.jpeg" alt="Tatuaje 3">
+             
+
+            </div>
+
+            <button
+                class="anterior"
+                onclick="mover(-1)"
+                aria-label="Imagen anterior">
+                ‹
+            </button>
+
+            <button
+                class="siguiente"
+                onclick="mover(1)"
+                aria-label="Imagen siguiente">
+                ›
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- PERSONAS -->
+    <section class="seccion personas">
+
+        <h2 class="aparecer">Equipo</h2>
+
+        <ul class="aparecer">
+
+            <li>Ahiezer Peña Diaz</li>
+            <li>Marlon Dominges</li>
+            <li>Eliainy no se</li>
+
+        </ul>
+
+    </section>
+
+
+    <!-- AUDIO -->
+    <audio
+        autoplay
+        loop
+        src="audio/Juan Luis Guerra - Areíto.mp3">
+    </audio>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
