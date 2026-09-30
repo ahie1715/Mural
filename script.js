@@ -147,4 +147,10 @@ elementos.forEach(
 
     }
 
+      const audio = document.querySelector("audio");
+   ["click", "keydown", "touchstart"].forEach(ev =>
+     document.addEventListener(ev, () => audio.play(), { once: true })
+   );
+
 );
+
