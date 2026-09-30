@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mural</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+
+    
+    <nav class="barra">
+
+        <a href="#inicio">Inicio</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#galeria">Galería</a>
+
+    </nav>
+
+
+    <section id="inicio" class="seccion inicio">
+
+        <h1>Mural</h1>
+
+        <h3>Este mural representa el arte dominicano y la manera en que nuestra cultura se expresa a través de diferentes formas de arte. Cada elemento representa una parte de nuestra identidad artística.</h3>
+
+        <img
+            class="mural aparecer"
+            src="img/WhatsApp Image 2026-09-23 at 3.30.40 PM.jpeg"
+            alt="Mural"
+        >
+
+        <img
+            class="decora"
+            src="img/—Pngtree—palm tree with lush green_20965856 (2).png"
+            alt=""
+        >
+
+        <img
+            class="decora2"
+            src="img/—Pngtree—palm tree with lush green_20965856 (2).png"
+            alt=""
+        >
+
+    </section>
+
+
+    
+    <div class="carrusel aparecer" id="galeria">
+
+    <div class="imagenes">
+        <img src="img/dona.jpeg"  alt="Tatuaje 1" data-descripcion="La mujer dominicana representa el arte popular, la belleza y las tradiciones de nuestra cultura. ">
+        <img src="img/juan.jpeg"  alt="Tatuaje 2" data-descripcion="Juan Luis Guerra representa el arte musical dominicano y la capacidad de nuestra música de llegar a otros países. 
+">
+        <img src="img/indio.jpeg" alt="Tatuaje 3" data-descripcion="El taíno y sus símbolos representan el arte indígena y las primeras expresiones artísticas de nuestra historia.">
+    </div>
+
+    <p class="descripcion" id="descripcion">La mujer dominicana representa el arte popular, la belleza y las tradiciones de nuestra cultura. </p>
+    
+
+    <button class="anterior" onclick="mover(-1)" aria-label="Imagen anterior">‹</button>
+    <button class="siguiente" onclick="mover(1)" aria-label="Imagen siguiente">›</button>
+
+</div>
+
+     
+    </section>
+
+   <h3>La tambora y el güiro representan el arte musical y folclórico dominicano, mientras que el paisaje tropical refleja cómo el entorno caribeño también forma parte de nuestro arte. </h3>
+
+   <h3>Los colores de la bandera dominicana aportan identidad y fuerza visual a toda la obra.</h3>
+
+   <h3>En conjunto, este mural muestra que el arte dominicano es una combinación de historia, raíces, música, tradiciones y creatividad. Es un arte que viene del pasado, se transforma en el presente y continúa evolucionando con las nuevas generaciones.”</h3>
+
+    <!-- PERSONAS -->
+    <section class="seccion personas">
+
+        <h2 class="aparecer">Equipo</h2>
+
+        <ul class="aparecer">
+
+            <li>Ahiezer Peña Diaz</li>
+            <li>Marlon Dominges</li>
+            <li>Eliainy no se</li>
+
+        </ul>
+
+    </section>
+
+
+    <!-- AUDIO -->
+   <audio id="musica" loop src="audio/areito.mp3"></audio>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
